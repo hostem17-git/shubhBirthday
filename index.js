@@ -109,7 +109,7 @@ function animate(){
       })
     ctx.font= "90px Dancing Script"
     ctx.fillStyle = "rgb(255,255,255)";
-    ctx.fillText("Happy Birthweek Shubh!", 330,200)
+    ctx.fillText("Happy Birthweek Shubh!", canvas.width/3,canvas.height/3)
     if(flag)
         ctx.drawImage(imge,canvas.width/2 - 150,canvas.height/2 - 100,300,300)
 }
